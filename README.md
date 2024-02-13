@@ -23,3 +23,4 @@ A responsive landing page for the GlamConnect app that meets all the requirement
 A presentation of the landing page that showcases its features, benefits, and functionality.
 Conclusion
 This capstone project provides coding bootcamp students with an opportunity to apply their skills in front-end web development and collaboration. By building a landing page for the GlamConnect app, students will demonstrate their ability to use technical and creative skills in a practical, real-world scenario.
+Deployment link: https://zuribaby.github.io/ma.pair.capstone.project/
