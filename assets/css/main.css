@@ -993,9 +993,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Chefs Section
+# Team Section
 --------------------------------------------------------------*/
-.chefs .chef-member {
+.chiefs .chief-member {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
@@ -1004,12 +1004,12 @@ section {
   transition: 0.3s;
 }
 
-.chefs .chef-member .member-img {
+.chiefs .chief-member .member-img {
   position: relative;
   overflow: hidden;
 }
 
-.chefs .chef-member .member-img:after {
+.chiefs .chief-member .member-img:after {
   position: absolute;
   content: "";
   left: 0;
@@ -1021,7 +1021,7 @@ section {
   z-index: 1;
 }
 
-.chefs .chef-member .social {
+.chiefs .chief-member .social {
   position: absolute;
   right: -100%;
   top: 30px;
@@ -1032,7 +1032,7 @@ section {
   z-index: 2;
 }
 
-.chefs .chef-member .social a {
+.chiefs .chief-member .social a {
   transition: color 0.3s;
   color: rgba(55, 55, 63, 0.4);
   margin: 15px 12px;
@@ -1041,33 +1041,33 @@ section {
   text-align: center;
 }
 
-.chefs .chef-member .social a:hover {
+.chiefs .chief-member .social a:hover {
   color: rgba(55, 55, 63, 0.9);
 }
 
-.chefs .chef-member .social i {
+.chiefs .chief-member .social i {
   font-size: 18px;
 }
 
-.chefs .chef-member .member-info {
+.chiefs .chief-member .member-info {
   padding: 10px 15px 20px 15px;
 }
 
-.chefs .chef-member .member-info h4 {
+.chiefs .chief-member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: var(--color-secondary);
 }
 
-.chefs .chef-member .member-info span {
+.chiefs .chief-member .member-info span {
   display: block;
   font-size: 14px;
   font-weight: 400;
   color: rgba(33, 37, 41, 0.4);
 }
 
-.chefs .chef-member .member-info p {
+.chiefs .chief-member .member-info p {
   font-style: italic;
   font-size: 14px;
   padding-top: 15px;
@@ -1075,30 +1075,30 @@ section {
   color: rgba(33, 37, 41, 0.7);
 }
 
-.chefs .chef-member:hover {
+.chiefs .chief-member:hover {
   transform: scale(1.08);
   box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
 }
 
-.chefs .chef-member:hover .social {
+.chiefs .chief-member:hover .social {
   right: 8px;
   opacity: 1;
 }
 
 /*--------------------------------------------------------------
-# Book A Table Section
+# Book a session
 --------------------------------------------------------------*/
-.book-a-table .reservation-img {
+.book-a-session .reservation-img {
   min-height: 500px;
   background-size: cover;
   background-position: center;
 }
 
-.book-a-table .reservation-form-bg {
+.book-a-session .reservation-form-bg {
   background: rgba(55, 55, 63, 0.04);
 }
 
-.book-a-table .php-email-form {
+.book-a-session .php-email-form {
   padding: 40px;
 }
 
@@ -1108,14 +1108,14 @@ section {
   }
 }
 
-.book-a-table .php-email-form h3 {
+.book-a-session .php-email-form h3 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.book-a-table .php-email-form h4 {
+.book-a-session .php-email-form h4 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1123,12 +1123,12 @@ section {
   margin: 20px 0 0 0;
 }
 
-.book-a-table .php-email-form p {
+.book-a-session .php-email-form p {
   font-size: 14px;
   margin-bottom: 20px;
 }
 
-.book-a-table .php-email-form .error-message {
+.book-a-session .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #df1529;
@@ -1138,7 +1138,7 @@ section {
   font-weight: 600;
 }
 
-.book-a-table .php-email-form .sent-message {
+.book-a-session.php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #059652;
@@ -1148,7 +1148,7 @@ section {
   font-weight: 600;
 }
 
-.book-a-table .php-email-form .loading {
+.book-a-session .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
@@ -1156,7 +1156,7 @@ section {
   margin-bottom: 24px;
 }
 
-.book-a-table .php-email-form .loading:before {
+.book-a-session .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1168,28 +1168,28 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.book-a-table .php-email-form input,
-.book-a-table .php-email-form textarea {
+.book-a-session.php-email-form input,
+.book-a-session .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 0;
 }
 
-.book-a-table .php-email-form input:focus,
-.book-a-table .php-email-form textarea:focus {
+.book-a-session.php-email-form input:focus,
+.book-a-session .php-email-form textarea:focus {
   border-color: var(--color-primary);
 }
 
-.book-a-table .php-email-form input {
+.book-a-session.php-email-form input {
   padding: 12px 15px;
 }
 
-.book-a-table .php-email-form textarea {
+.book-a-session.php-email-form textarea {
   padding: 12px 15px;
 }
 
-.book-a-table .php-email-form button[type="submit"] {
+.book-a-session.php-email-form button[type="submit"] {
   background: var(--color-primary);
   border: 0;
   padding: 14px 60px;
@@ -1198,7 +1198,7 @@ section {
   border-radius: 50px;
 }
 
-.book-a-table .php-email-form button[type="submit"]:hover {
+.book-a-session.php-email-form button[type="submit"]:hover {
   background: #ec2727;
 }
 
